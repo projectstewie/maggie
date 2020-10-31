@@ -4,7 +4,7 @@ var router = express.Router();
 /* GET users listings. */
 router.get('/', function (req, res, next) {
     let listingsData = {
-        users: [
+        items: [
         {
         'id': 1, 
         'heading': 'Listing Header #1',
@@ -17,12 +17,8 @@ router.get('/', function (req, res, next) {
              thumbnail: 'https://colorlib.com/preview/theme/shoppers/images/shoe_1.jpg' 
             },
             { 
-             original: 'https://colorlib.com/preview/theme/shoppers/images/men.jpg', 
-             thumbnail: 'https://colorlib.com/preview/theme/shoppers/images/men.jpg' 
-           },
-            { 
-             original: 'https://colorlib.com/preview/theme/shoppers/images/person_1.jpg', 
-             thumbnail: 'https://colorlib.com/preview/theme/shoppers/images/person_1.jpg' 
+             original: 'https://colorlib.com/preview/theme/shoppers/images/cloth_1.jpg', 
+             thumbnail: 'https://colorlib.com/preview/theme/shoppers/images/cloth_1.jpg' 
            },
            ],
         },
