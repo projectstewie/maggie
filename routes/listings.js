@@ -8,6 +8,8 @@ router.get('/', function (req, res, next) {
         {
         'id': 1, 
         'heading': 'Listing Header #1',
+        'category': 'Electronics',
+        'category_id': '2',
         'description': 'This is a listing description. This is possibly a long string with manny paragraphs.',
         'seller_id': 1234567890,
         'price': 49.99,
@@ -25,6 +27,8 @@ router.get('/', function (req, res, next) {
         {
         'id': 2, 
         'heading': '#2 Header',
+        'category': 'Clothing',
+        'category_id': '1',
         'description': 'This is a listing description. This is possibly a long string with manny paragraphs.',
         'seller_id': 0987654321,
         'price': 99.49,
